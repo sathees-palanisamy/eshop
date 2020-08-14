@@ -6,15 +6,18 @@ class Nav extends Component {
       return (
         <Auxillary>
           <div className="fixed-nav">
-          
-            <img src="resources/favicons/logo.jpg" alt="Kiski logo" className="logo" />
+    
             <h1>Farm eShop</h1>
          
             <div className="Header-input">
+              <select className="select-css">
+                <option value="All">All</option>
+                <option value="Vegetables">Vegetables</option>
+                <option value="Fruits">Fruits</option>
+              </select>
             <input type="text" name="searchitem" id="searchitem" placeholder="Search"  />
             <i className="ion-ios-search icon-small-black search-icon-position"></i>
             </div>
-
             <nav>
                   <ul className="main-nav">
                      <li>
